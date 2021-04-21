@@ -4,3 +4,7 @@
 * bert_pos folder: implementation of baseline model + pos constraint
 * bert_sen folder: implementation of baseline model + nearest preference constraint
 * bert_pos_senemd folder: implementation of the best model (baseline model + two constraints)
+
+### Set up dependencies 
+
+`pip install -r dependencies.txt`
