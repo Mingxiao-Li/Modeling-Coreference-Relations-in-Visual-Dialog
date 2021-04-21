@@ -11,7 +11,7 @@
 
 ### Running code
 ##### Set up data path and parameters properly 
-`run {bert_base/bert_pos/bert_sen/bert_pos_senemd}{train/evaluate}.py`
+`python {bert_base/bert_pos/bert_sen/bert_pos_senemd}{train/evaluate}.py`
 
 ### Results on the [online leaderboard](https://eval.ai/web/challenges/challenge-page/518/leaderboard/1421)
 ![Image](https://github.com/Mingxiao-Li/Modeling-Coreference-Relations-in-Visual-Dialog/blob/master/results.png)
