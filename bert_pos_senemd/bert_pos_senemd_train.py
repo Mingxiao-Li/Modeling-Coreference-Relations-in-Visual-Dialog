@@ -19,7 +19,7 @@ from bert_pos_senemd_utils import (
     load_pretrained_weights_and_adjust_names,
 )
 from pytorch_transformers.optimization import AdamW
-from utilsmetrics import SparseGTMetrics, NDCG, scores_to_ranks
+from utils.metrics import SparseGTMetrics, NDCG, scores_to_ranks
 from torch.utils.tensorboard import SummaryWriter
 
 train_info = open("bert_pos_sen_0.9", "a+")
@@ -412,6 +412,7 @@ if __name__ == "__main__":
             torch.cuda.empty_cache()
 
     # set iteration number in epoch
+    exit()
     num_iter_epoch = dataset.numDataPoints["train"] // (
         params["batch_size"] // params["sequences_per_image"]
         if (params["batch_size"] // params["sequences_per_image"])
