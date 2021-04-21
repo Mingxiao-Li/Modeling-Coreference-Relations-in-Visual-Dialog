@@ -412,7 +412,6 @@ if __name__ == "__main__":
             torch.cuda.empty_cache()
 
     # set iteration number in epoch
-    exit()
     num_iter_epoch = dataset.numDataPoints["train"] // (
         params["batch_size"] // params["sequences_per_image"]
         if (params["batch_size"] // params["sequences_per_image"])
