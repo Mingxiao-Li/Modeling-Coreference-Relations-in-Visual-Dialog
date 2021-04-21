@@ -8,3 +8,7 @@
 ### Set up dependencies 
 
 `pip install -r dependencies.txt`
+
+### Running code
+##### Set up data path and parameters properly 
+`run {bert_base/bert_pos/bert_sen/bert_pos_senemd}{train/evaluate}.py`
