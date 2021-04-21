@@ -13,4 +13,5 @@
 ##### Set up data path and parameters properly 
 `run {bert_base/bert_pos/bert_sen/bert_pos_senemd}{train/evaluate}.py`
 
-### Results in the online leaderboard]
+### Results in the online leaderboard
+![Image](https://github.com/Mingxiao-Li/Modeling-Coreference-Relations-in-Visual-Dialog/blob/master/results.png)
