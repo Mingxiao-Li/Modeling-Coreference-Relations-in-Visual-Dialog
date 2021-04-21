@@ -12,7 +12,7 @@ torch.set_printoptions(
 
 ACT2FN = {"gelu": gelu_new, "relu": F.relu, "swish": swish}
 
-# TOKENIZER = BertTokenizer.from_pretrained("bert-base-uncased")
+# TOKENIZER = BertTokenizer.from_pretrained("bert-base-u.pyncased")
 class VDSelfAttention(nn.Module):
     def __init__(self, config):
         super(VDSelfAttention, self).__init__()
